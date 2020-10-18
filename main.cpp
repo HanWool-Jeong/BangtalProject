@@ -323,7 +323,7 @@ protected:
 	PicturePuzzle(const string& image, ScenePtr scene, ScenePtr connectedScene, PuzzlePtr secretPuz, int x, int y, bool shown) : Puzzle(image, scene, connectedScene, x, y, shown) {
 		_secretPuz = secretPuz;
 		init_puzzles();
-		//shuffle();
+		shuffle();
 	}
 
 public:
